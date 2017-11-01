@@ -1,0 +1,98 @@
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-decoration:none;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+.wrap{
+    width:100%;
+    height:100%;
+}
+.header{
+    height:40px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background:#999;
+}
+.header span{
+    color:#fff;
+}
+.box{
+    width:100%;
+    height:100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.5);
+    
+}
+.content{
+    background:#fff;
+    width:90%;
+    height:70%;
+    margin-top:20%;
+    margin-left:5%;
+    border-radius:10px;
+}
+.title p{
+    height:110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+.title p img{
+    width:60%;
+    height:auto;
+    vertical-align: middle;
+}
+.title p span{
+    display: block;
+    color:#4a4f53;
+    line-height: 30px;
+}
+.ipt p{
+    width:80%;
+    height:70px;
+    margin-left:10%;
+    position:relative;
+    border-bottom:1px solid #ccc;
+}
+.ipt b{
+    width:17px;
+    height:25px;
+    position:absolute;
+    left:10%;
+    top:50%;
+    transform: translate3d(0,-50%,0)
+}
+.ipt b img{
+    width:100%;
+    height:100%;
+}
+.ipt input{
+    width:100%;
+    height:100%;
+    padding-left:50px;
+    box-sizing:border-box;
+    border:0;
+    
+}
+.btn{
+    margin-top:45px;
+}
+.btn button{
+    height:38px;
+    border:0;
+    background:#2fba77;
+    width:80%;
+    margin-left:10%;
+    color:#fffff4;
+    border-radius:5px;
+}
